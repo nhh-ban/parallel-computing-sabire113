@@ -46,9 +46,6 @@ for(i in 1:nrow(df)){
       sig=.05) 
 } 
 
-
-
-
 ## Assignemnt 4 
 
 # This is one way of solving it - maybe you have a better idea? 

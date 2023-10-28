@@ -51,14 +51,6 @@ df <- foreach(i = 1:nrow(df), .packages = c("tweedie", "magrittr", "tidyverse"),
 # Stop the parallel processing
 stopCluster(cl)
 
-# Plot the results
-df %>%
-  ggplot2::ggplot(aes(x = log(N), y = share_reject, col = type)) +
-  geom_line() +
-  geom_hline(yintercept = 0.05) +
-  theme_bw()
-
-
 
 ## Assignemnt 4 
 
